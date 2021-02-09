@@ -1,0 +1,213 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  background-image: url("../images/header_bg.jpg");
+  height: 685px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  width: 38px;
+  height: 37px;
+  background-image: url("../images/logo_before.svg.png");
+  left: 3px;
+  top: -22px;
+}
+
+.header__logo {
+  display: block;
+  margin-left: 53px;
+}
+
+.menu {
+  font-size: 12px;
+  font-weight: 300;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 95px;
+}
+
+.menu__list-item {
+  display: inline-block;
+  padding-right: 45px;
+}
+
+.menu__list-item1 {
+  padding-right: 0;
+}
+
+.header__content {
+  /* Ширина должна быть 593 пикселя, но при ней слова не становятся два в ряд, а бр использовать  ну такое */
+  width: 605px;
+  margin-bottom: 45px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+
+.header__info {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.order {
+  height: 91px;
+  width: 265px;
+  display: inline-block;
+  margin: -20px;
+  background-image: url(../images/button_main_order.png);
+}
+
+.header__all {
+  display: flex;
+}
+
+.header__video {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  margin: auto;
+  width: 153px;
+  height: 153px;
+  background-image: url(../images/video_button.png);
+}
+
+.video {
+  margin-top: 175px;
+  margin-left: 10px;
+}
+
+.page-section {
+  height: 825px;
+}
+
+.headphones__wrapper {
+  display: flex;
+}
+
+.headphones__image {
+  margin-top: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+  margin-bottom: 150px;
+}
+
+.headphones__info {
+  margin-left: 115px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.headphones__title {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 40px;
+}
+
+.headphones__text {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  padding-right: 80px;
+  margin-bottom: 60px;
+}
+
+.headphones__menu {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 42px;
+}
+
+.headphones__menu--item {
+  padding-right: 171px;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+.headphones__menu--item::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 3px;
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background-color: #f3b787;
+}
+
+.headphones__img {
+  position: relative;
+}
+
+.headphones__img {
+  display: block;
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+
+.headphones__img-1,
+.headphones__img-2,
+.headphones__img-3 {
+  position: absolute;
+  top: 18px;
+}
+
+.headphones__img-1 {
+  left: -175px;
+}
+
+.headphones__img-2 {
+  left: -195px;
+}
+
+.headphones__img-3 {
+  left: -245px;
+}
